@@ -1,0 +1,124 @@
+{
+  "config": {
+    "episodes": 500,
+    "max_steps": 100,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip": 0.2,
+    "update_epochs": 4,
+    "actor_lr": 0.04,
+    "critic_lr": 0.06,
+    "entropy_coef": 0.01,
+    "demo_episodes": 10,
+    "stationary_window": 3,
+    "jaccard_threshold": 0.1,
+    "jaccard_decay": 5.0
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "moving_average_window": 25,
+  "scenarios": [
+    {
+      "name": "scenario_1",
+      "learner_start": [
+        0,
+        11
+      ],
+      "red_expert_start": [
+        0,
+        1
+      ],
+      "blue_expert_start": [
+        0,
+        0
+      ],
+      "red_goal": [
+        10,
+        8
+      ],
+      "blue_goal": [
+        10,
+        4
+      ]
+    },
+    {
+      "name": "scenario_2",
+      "learner_start": [
+        0,
+        11
+      ],
+      "red_expert_start": [
+        0,
+        9
+      ],
+      "blue_expert_start": [
+        0,
+        0
+      ],
+      "red_goal": [
+        10,
+        8
+      ],
+      "blue_goal": [
+        10,
+        4
+      ]
+    },
+    {
+      "name": "scenario_3",
+      "learner_start": [
+        9,
+        10
+      ],
+      "red_expert_start": [
+        0,
+        1
+      ],
+      "blue_expert_start": [
+        0,
+        0
+      ],
+      "red_goal": [
+        10,
+        10
+      ],
+      "blue_goal": [
+        10,
+        4
+      ]
+    },
+    {
+      "name": "scenario_4",
+      "learner_start": [
+        0,
+        10
+      ],
+      "red_expert_start": [
+        0,
+        1
+      ],
+      "blue_expert_start": [
+        0,
+        0
+      ],
+      "red_goal": [
+        10,
+        10
+      ],
+      "blue_goal": [
+        10,
+        4
+      ]
+    }
+  ]
+}

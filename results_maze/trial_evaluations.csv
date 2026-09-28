@@ -1,0 +1,41 @@
+evaluation_episodes,evaluation_mean_return,evaluation_success_rate,evaluation_mean_steps,scenario,method,seed,discovery_episode,selected_expert,expert_votes,lookup_states
+100,-0.9060000000000007,1.0,19.06,maze_lower_gate,baseline_ppo,0,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_lower_gate,social_ppo,0,17,0,"[10, 0]",36
+100,-1.1070000000000007,1.0,21.07,maze_lower_gate,baseline_ppo,1,,,,0
+100,-0.9000000000000007,1.0,19.0,maze_lower_gate,social_ppo,1,23,0,"[10, 0]",36
+100,-0.9130000000000007,1.0,19.13,maze_lower_gate,baseline_ppo,2,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_lower_gate,social_ppo,2,19,0,"[10, 0]",32
+100,-0.9180000000000007,1.0,19.18,maze_lower_gate,baseline_ppo,3,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_lower_gate,social_ppo,3,46,0,"[10, 0]",31
+100,-0.9050000000000007,1.0,19.05,maze_lower_gate,baseline_ppo,4,,,,0
+100,-0.9000000000000007,1.0,19.0,maze_lower_gate,social_ppo,4,30,0,"[10, 0]",30
+100,-0.9140000000000006,1.0,19.14,maze_lower_gate,baseline_ppo,5,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_lower_gate,social_ppo,5,34,0,"[10, 0]",37
+100,-0.9070000000000007,1.0,19.07,maze_lower_gate,baseline_ppo,6,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_lower_gate,social_ppo,6,27,0,"[10, 0]",41
+100,-0.9040000000000006,1.0,19.04,maze_lower_gate,baseline_ppo,7,,,,0
+100,-0.9060000000000007,1.0,19.06,maze_lower_gate,social_ppo,7,28,0,"[10, 0]",36
+100,-1.1050000000000006,1.0,21.05,maze_lower_gate,baseline_ppo,8,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_lower_gate,social_ppo,8,55,0,"[10, 0]",37
+100,-0.9040000000000006,1.0,19.04,maze_lower_gate,baseline_ppo,9,,,,0
+100,-0.9000000000000007,1.0,19.0,maze_lower_gate,social_ppo,9,34,0,"[10, 0]",33
+100,-0.9070000000000007,1.0,19.07,maze_upper_gate,baseline_ppo,0,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_upper_gate,social_ppo,0,29,0,"[10, 0]",35
+100,-0.9360000000000008,1.0,19.36,maze_upper_gate,baseline_ppo,1,,,,0
+100,-0.9070000000000007,1.0,19.07,maze_upper_gate,social_ppo,1,18,0,"[10, 0]",35
+100,-0.9100000000000007,1.0,19.1,maze_upper_gate,baseline_ppo,2,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_upper_gate,social_ppo,2,28,0,"[10, 0]",33
+100,-0.9120000000000007,1.0,19.12,maze_upper_gate,baseline_ppo,3,,,,0
+100,-1.1240000000000006,1.0,21.24,maze_upper_gate,social_ppo,3,25,0,"[10, 0]",31
+100,-0.9080000000000007,1.0,19.08,maze_upper_gate,baseline_ppo,4,,,,0
+100,-0.9000000000000007,1.0,19.0,maze_upper_gate,social_ppo,4,42,0,"[10, 0]",34
+100,-0.9080000000000007,1.0,19.08,maze_upper_gate,baseline_ppo,5,,,,0
+100,-0.9020000000000007,1.0,19.02,maze_upper_gate,social_ppo,5,13,0,"[10, 0]",35
+100,-0.9040000000000006,1.0,19.04,maze_upper_gate,baseline_ppo,6,,,,0
+100,-0.9060000000000007,1.0,19.06,maze_upper_gate,social_ppo,6,23,0,"[10, 0]",36
+100,-0.9100000000000007,1.0,19.1,maze_upper_gate,baseline_ppo,7,,,,0
+100,-0.9010000000000008,1.0,19.01,maze_upper_gate,social_ppo,7,42,0,"[10, 0]",33
+100,-0.9070000000000006,1.0,19.07,maze_upper_gate,baseline_ppo,8,,,,0
+100,-0.9910000000000005,0.99,19.81,maze_upper_gate,social_ppo,8,61,0,"[10, 0]",33
+100,-1.1030000000000006,1.0,21.03,maze_upper_gate,baseline_ppo,9,,,,0
+100,-0.9000000000000007,1.0,19.0,maze_upper_gate,social_ppo,9,16,0,"[10, 0]",37

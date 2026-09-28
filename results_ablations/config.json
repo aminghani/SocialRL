@@ -1,0 +1,39 @@
+{
+  "config": {
+    "episodes": 500,
+    "max_steps": 100,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip": 0.2,
+    "update_epochs": 4,
+    "actor_lr": 0.04,
+    "critic_lr": 0.06,
+    "entropy_coef": 0.01,
+    "demo_episodes": 10,
+    "stationary_window": 3,
+    "jaccard_threshold": 0.1,
+    "jaccard_decay": 5.0
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "variants": {
+    "fixed_025": "Goal-voted red expert, fixed imitation coefficient 0.25",
+    "fixed_100": "Goal-voted red expert, fixed imitation coefficient 1.0",
+    "balanced_expert": "No goal vote: red on even seeds, blue on odd seeds",
+    "wrong_expert": "Forced blue expert in every seed, adaptive coefficient"
+  },
+  "control_sources": [
+    "results",
+    "results_maze"
+  ]
+}

@@ -1,0 +1,5 @@
+scenario,method,seeds,last_50_training_return,last_50_training_success,evaluation_return,evaluation_success,evaluation_steps
+maze_lower_gate,baseline_ppo,10,-0.9676000000000003,0.998,-0.9483000000000006,1.0,19.483
+maze_lower_gate,social_ppo,10,-0.9036000000000005,1.0,-0.9018000000000006,1.0,19.018
+maze_upper_gate,baseline_ppo,10,-0.9578000000000004,0.998,-0.9305000000000007,1.0,19.305
+maze_upper_gate,social_ppo,10,-0.9224000000000006,1.0,-0.9335000000000007,0.999,19.325

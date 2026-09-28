@@ -1,0 +1,542 @@
+{
+  "scenario_1": {
+    "baseline_ppo": {
+      "first100_return": -3.3732999999999955,
+      "first100_success": 0.788,
+      "final_return": -0.3494999999999999,
+      "early_minus_full_ci": [
+        -1.4035959652651018,
+        -0.8020040347348942
+      ],
+      "final_minus_full_ci": [
+        -0.11021608947671674,
+        0.05621608947671666
+      ]
+    },
+    "social_ppo": {
+      "first100_return": -2.2704999999999975,
+      "first100_success": 0.8630000000000001,
+      "final_return": -0.3224999999999999,
+      "early_minus_full_ci": [
+        0.0,
+        0.0
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_025": {
+      "first100_return": -2.3905999999999965,
+      "first100_success": 0.8630000000000001,
+      "final_return": -0.30169999999999986,
+      "early_minus_full_ci": [
+        -0.2658509040526731,
+        0.025650904052673784
+      ],
+      "final_minus_full_ci": [
+        -0.024272906611231517,
+        0.06587290661123157
+      ]
+    },
+    "fixed_100": {
+      "first100_return": -2.193299999999998,
+      "first100_success": 0.8720000000000001,
+      "final_return": -0.3024999999999999,
+      "early_minus_full_ci": [
+        -0.036191921815130854,
+        0.1905919218151304
+      ],
+      "final_minus_full_ci": [
+        -0.02559242605602411,
+        0.06559242605602417
+      ]
+    },
+    "balanced_expert": {
+      "first100_return": -2.6397999999999966,
+      "first100_success": 0.8550000000000001,
+      "final_return": -0.32389999999999997,
+      "early_minus_full_ci": [
+        -0.7427545030640545,
+        0.004154503064055459
+      ],
+      "final_minus_full_ci": [
+        -0.0032222498020326035,
+        0.00042224980203258984
+      ]
+    },
+    "wrong_expert": {
+      "first100_return": -3.026399999999996,
+      "first100_success": 0.8379999999999999,
+      "final_return": -0.3044999999999999,
+      "early_minus_full_ci": [
+        -1.0670031043003811,
+        -0.44479689569961667
+      ],
+      "final_minus_full_ci": [
+        -0.027589931736135182,
+        0.0635899317361352
+      ]
+    },
+    "balanced_subgroups": {
+      "red_even_seeds": {
+        "first100_return": -2.288999999999997,
+        "selected_expert": 0
+      },
+      "blue_odd_seeds": {
+        "first100_return": -2.990599999999996,
+        "selected_expert": 1
+      }
+    }
+  },
+  "scenario_2": {
+    "baseline_ppo": {
+      "first100_return": -3.3732999999999955,
+      "first100_success": 0.788,
+      "final_return": -0.3494999999999999,
+      "early_minus_full_ci": [
+        -1.410044305900277,
+        -0.7233556940997203
+      ],
+      "final_minus_full_ci": [
+        -0.1092276684342176,
+        0.01482766843421749
+      ]
+    },
+    "social_ppo": {
+      "first100_return": -2.3065999999999973,
+      "first100_success": 0.843,
+      "final_return": -0.3022999999999999,
+      "early_minus_full_ci": [
+        0.0,
+        0.0
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_025": {
+      "first100_return": -2.4073999999999964,
+      "first100_success": 0.8420000000000002,
+      "final_return": -0.30339999999999995,
+      "early_minus_full_ci": [
+        -0.2463070151870363,
+        0.044707015187036236
+      ],
+      "final_minus_full_ci": [
+        -0.0037434885254286785,
+        0.0015434885254286546
+      ]
+    },
+    "fixed_100": {
+      "first100_return": -2.191599999999997,
+      "first100_success": 0.8550000000000001,
+      "final_return": -0.30129999999999985,
+      "early_minus_full_ci": [
+        -0.005924699841481126,
+        0.2359246998414805
+      ],
+      "final_minus_full_ci": [
+        4.61908606808663e-05,
+        0.001953809139319147
+      ]
+    },
+    "balanced_expert": {
+      "first100_return": -2.795899999999997,
+      "first100_success": 0.835,
+      "final_return": -0.3259999999999999,
+      "early_minus_full_ci": [
+        -0.9124167718723368,
+        -0.06618322812766292
+      ],
+      "final_minus_full_ci": [
+        -0.06845419707795056,
+        0.021054197077950504
+      ]
+    },
+    "wrong_expert": {
+      "first100_return": -3.151099999999997,
+      "first100_success": 0.8380000000000001,
+      "final_return": -0.4277,
+      "early_minus_full_ci": [
+        -1.144451981060968,
+        -0.5445480189390317
+      ],
+      "final_minus_full_ci": [
+        -0.30531890932671474,
+        0.05451890932671449
+      ]
+    },
+    "balanced_subgroups": {
+      "red_even_seeds": {
+        "first100_return": -2.4751999999999965,
+        "selected_expert": 0
+      },
+      "blue_odd_seeds": {
+        "first100_return": -3.116599999999997,
+        "selected_expert": 1
+      }
+    }
+  },
+  "scenario_3": {
+    "baseline_ppo": {
+      "first100_return": 0.5385000000000005,
+      "first100_success": 0.9810000000000001,
+      "final_return": 0.8994000000000005,
+      "early_minus_full_ci": [
+        -0.11814545750453168,
+        -0.025454542495468337
+      ],
+      "final_minus_full_ci": [
+        -0.001957294200000038,
+        0.0007572942000000144
+      ]
+    },
+    "social_ppo": {
+      "first100_return": 0.6103000000000006,
+      "first100_success": 0.983,
+      "final_return": 0.9000000000000006,
+      "early_minus_full_ci": [
+        0.0,
+        0.0
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_025": {
+      "first100_return": 0.5941000000000006,
+      "first100_success": 0.983,
+      "final_return": 0.9000000000000006,
+      "early_minus_full_ci": [
+        -0.02912402584770178,
+        -0.0032759741522982166
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_100": {
+      "first100_return": 0.6101000000000006,
+      "first100_success": 0.983,
+      "final_return": 0.9000000000000006,
+      "early_minus_full_ci": [
+        -0.0006524314000000005,
+        0.00025243140000000025
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "balanced_expert": {
+      "first100_return": 0.5807000000000005,
+      "first100_success": 0.982,
+      "final_return": 0.9000000000000006,
+      "early_minus_full_ci": [
+        -0.06438004571007351,
+        0.0051800457100734665
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "wrong_expert": {
+      "first100_return": 0.5385000000000005,
+      "first100_success": 0.9810000000000001,
+      "final_return": 0.8994000000000005,
+      "early_minus_full_ci": [
+        -0.11814545750453168,
+        -0.025454542495468337
+      ],
+      "final_minus_full_ci": [
+        -0.001957294200000038,
+        0.0007572942000000144
+      ]
+    },
+    "balanced_subgroups": {
+      "red_even_seeds": {
+        "first100_return": 0.5596000000000005,
+        "selected_expert": 0
+      },
+      "blue_odd_seeds": {
+        "first100_return": 0.6018000000000006,
+        "selected_expert": 1
+      }
+    }
+  },
+  "scenario_4": {
+    "baseline_ppo": {
+      "first100_return": -3.639999999999995,
+      "first100_success": 0.76,
+      "final_return": -0.2483999999999999,
+      "early_minus_full_ci": [
+        -2.206400072718642,
+        -1.1669999272813536
+      ],
+      "final_minus_full_ci": [
+        -0.2400898282233263,
+        -0.05111017177667375
+      ]
+    },
+    "social_ppo": {
+      "first100_return": -1.9532999999999965,
+      "first100_success": 0.868,
+      "final_return": -0.10279999999999985,
+      "early_minus_full_ci": [
+        0.0,
+        0.0
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_025": {
+      "first100_return": -2.2705999999999964,
+      "first100_success": 0.8560000000000001,
+      "final_return": -0.16239999999999982,
+      "early_minus_full_ci": [
+        -0.43389514545146224,
+        -0.20070485454853748
+      ],
+      "final_minus_full_ci": [
+        -0.177437994884602,
+        0.05823799488460202
+      ]
+    },
+    "fixed_100": {
+      "first100_return": -1.9680999999999969,
+      "first100_success": 0.873,
+      "final_return": -0.18159999999999993,
+      "early_minus_full_ci": [
+        -0.12118916862006465,
+        0.09158916862006419
+      ],
+      "final_minus_full_ci": [
+        -0.2714038606013317,
+        0.1138038606013316
+      ]
+    },
+    "balanced_expert": {
+      "first100_return": -2.614899999999996,
+      "first100_success": 0.837,
+      "final_return": -0.2642999999999999,
+      "early_minus_full_ci": [
+        -1.1786868668232782,
+        -0.14451313317672065
+      ],
+      "final_minus_full_ci": [
+        -0.430961474378504,
+        0.10796147437850384
+      ]
+    },
+    "wrong_expert": {
+      "first100_return": -3.370099999999996,
+      "first100_success": 0.7969999999999999,
+      "final_return": -0.30629999999999996,
+      "early_minus_full_ci": [
+        -1.7882057651396992,
+        -1.0453942348602983
+      ],
+      "final_minus_full_ci": [
+        -0.4745228675897796,
+        0.06752286758977935
+      ]
+    },
+    "balanced_subgroups": {
+      "red_even_seeds": {
+        "first100_return": -1.9513999999999967,
+        "selected_expert": 0
+      },
+      "blue_odd_seeds": {
+        "first100_return": -3.2783999999999964,
+        "selected_expert": 1
+      }
+    }
+  },
+  "maze_lower_gate": {
+    "baseline_ppo": {
+      "first100_return": -6.177199999999992,
+      "first100_success": 0.5369999999999999,
+      "final_return": -0.9483000000000006,
+      "early_minus_full_ci": [
+        -2.1753436366097465,
+        -0.7550563633902522
+      ],
+      "final_minus_full_ci": [
+        -0.10637123293594569,
+        0.013371232935945769
+      ]
+    },
+    "social_ppo": {
+      "first100_return": -4.711999999999991,
+      "first100_success": 0.6220000000000001,
+      "final_return": -0.9018000000000006,
+      "early_minus_full_ci": [
+        0.0,
+        0.0
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_025": {
+      "first100_return": -4.817499999999992,
+      "first100_success": 0.6260000000000001,
+      "final_return": -0.9059000000000006,
+      "early_minus_full_ci": [
+        -0.23238092905745447,
+        0.02138092905745373
+      ],
+      "final_minus_full_ci": [
+        -0.009208113246913747,
+        0.0010081132469137851
+      ]
+    },
+    "fixed_100": {
+      "first100_return": -4.614299999999991,
+      "first100_success": 0.6299999999999999,
+      "final_return": -0.9028000000000006,
+      "early_minus_full_ci": [
+        -0.1089618093781355,
+        0.3043618093781354
+      ],
+      "final_minus_full_ci": [
+        -0.002168172851667507,
+        0.00016817285166754905
+      ]
+    },
+    "balanced_expert": {
+      "first100_return": -5.45459999999999,
+      "first100_success": 0.58,
+      "final_return": -1.0703000000000007,
+      "early_minus_full_ci": [
+        -1.3520998246900868,
+        -0.1331001753099118
+      ],
+      "final_minus_full_ci": [
+        -0.3202640614542356,
+        -0.016735938545764467
+      ]
+    },
+    "wrong_expert": {
+      "first100_return": -5.954099999999991,
+      "first100_success": 0.562,
+      "final_return": -1.2541000000000007,
+      "early_minus_full_ci": [
+        -1.6002922328651636,
+        -0.8839077671348349
+      ],
+      "final_minus_full_ci": [
+        -0.4703664168132713,
+        -0.2342335831867288
+      ]
+    },
+    "balanced_subgroups": {
+      "red_even_seeds": {
+        "first100_return": -4.456999999999992,
+        "selected_expert": 0
+      },
+      "blue_odd_seeds": {
+        "first100_return": -6.452199999999989,
+        "selected_expert": 1
+      }
+    }
+  },
+  "maze_upper_gate": {
+    "baseline_ppo": {
+      "first100_return": -6.396299999999989,
+      "first100_success": 0.49499999999999994,
+      "final_return": -0.9305000000000007,
+      "early_minus_full_ci": [
+        -3.161715500268792,
+        -0.7896844997312022
+      ],
+      "final_minus_full_ci": [
+        -0.07019902582939244,
+        0.07619902582939242
+      ]
+    },
+    "social_ppo": {
+      "first100_return": -4.420599999999992,
+      "first100_success": 0.651,
+      "final_return": -0.9335000000000007,
+      "early_minus_full_ci": [
+        0.0,
+        0.0
+      ],
+      "final_minus_full_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_025": {
+      "first100_return": -4.676299999999992,
+      "first100_success": 0.64,
+      "final_return": -0.9346000000000008,
+      "early_minus_full_ci": [
+        -0.39458368746096373,
+        -0.11681631253903565
+      ],
+      "final_minus_full_ci": [
+        -0.07824102788402378,
+        0.0760410278840238
+      ]
+    },
+    "fixed_100": {
+      "first100_return": -4.329299999999992,
+      "first100_success": 0.6619999999999999,
+      "final_return": -0.9026000000000007,
+      "early_minus_full_ci": [
+        -0.0033784998871991267,
+        0.18597849988719908
+      ],
+      "final_minus_full_ci": [
+        -0.020768213918631706,
+        0.08256821391863167
+      ]
+    },
+    "balanced_expert": {
+      "first100_return": -5.958899999999991,
+      "first100_success": 0.53,
+      "final_return": -1.1752000000000007,
+      "early_minus_full_ci": [
+        -2.9693992363672876,
+        -0.10720076363270903
+      ],
+      "final_minus_full_ci": [
+        -0.44284889792441784,
+        -0.04055110207558241
+      ]
+    },
+    "wrong_expert": {
+      "first100_return": -7.042399999999989,
+      "first100_success": 0.43899999999999995,
+      "final_return": -1.4576000000000007,
+      "early_minus_full_ci": [
+        -3.911083336673496,
+        -1.3325166633264987
+      ],
+      "final_minus_full_ci": [
+        -0.6855138627880262,
+        -0.36268613721197385
+      ]
+    },
+    "balanced_subgroups": {
+      "red_even_seeds": {
+        "first100_return": -4.939799999999991,
+        "selected_expert": 0
+      },
+      "blue_odd_seeds": {
+        "first100_return": -6.97799999999999,
+        "selected_expert": 1
+      }
+    }
+  }
+}

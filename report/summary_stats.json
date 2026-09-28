@@ -1,0 +1,150 @@
+{
+  "original": {
+    "scenario_1": {
+      "early_return_baseline": -3.3732999999999955,
+      "early_return_social": -2.2704999999999975,
+      "early_return_difference_ci": [
+        0.8020040347348942,
+        1.4035959652651018
+      ],
+      "first100_success_baseline": 0.788,
+      "first100_success_social": 0.8630000000000001,
+      "median_90pct_milestone_baseline": 54.5,
+      "median_90pct_milestone_social": 40.0,
+      "final_return_baseline": -0.3494999999999999,
+      "final_return_social": -0.3224999999999999,
+      "final_return_difference_ci": [
+        -0.05621608947671666,
+        0.11021608947671674
+      ],
+      "final_success_baseline": 1.0,
+      "final_success_social": 1.0,
+      "median_goal_discovery_episode": 4.0,
+      "correct_expert_selections": 10,
+      "mean_lambda_episodes_11_100": 0.3876518031134005,
+      "fraction_with_expert_match_episodes_11_100": 0.9733333333333334
+    },
+    "scenario_2": {
+      "early_return_baseline": -3.3732999999999955,
+      "early_return_social": -2.3065999999999973,
+      "early_return_difference_ci": [
+        0.7233556940997203,
+        1.410044305900277
+      ],
+      "first100_success_baseline": 0.788,
+      "first100_success_social": 0.843,
+      "median_90pct_milestone_baseline": 54.5,
+      "median_90pct_milestone_social": 42.5,
+      "final_return_baseline": -0.3494999999999999,
+      "final_return_social": -0.3022999999999999,
+      "final_return_difference_ci": [
+        -0.01482766843421749,
+        0.1092276684342176
+      ],
+      "final_success_baseline": 1.0,
+      "final_success_social": 1.0,
+      "median_goal_discovery_episode": 4.0,
+      "correct_expert_selections": 10,
+      "mean_lambda_episodes_11_100": 0.6456344877896161,
+      "fraction_with_expert_match_episodes_11_100": 0.9788888888888889
+    },
+    "scenario_3": {
+      "early_return_baseline": 0.5385000000000005,
+      "early_return_social": 0.6103000000000006,
+      "early_return_difference_ci": [
+        0.025454542495468337,
+        0.11814545750453168
+      ],
+      "first100_success_baseline": 0.9810000000000001,
+      "first100_success_social": 0.983,
+      "median_90pct_milestone_baseline": 25.0,
+      "median_90pct_milestone_social": 25.0,
+      "final_return_baseline": 0.8994000000000005,
+      "final_return_social": 0.9000000000000006,
+      "final_return_difference_ci": [
+        -0.0007572942000000144,
+        0.001957294200000038
+      ],
+      "final_success_baseline": 1.0,
+      "final_success_social": 1.0,
+      "median_goal_discovery_episode": 1.0,
+      "correct_expert_selections": 10,
+      "mean_lambda_episodes_11_100": 0.987094356261023,
+      "fraction_with_expert_match_episodes_11_100": 1.0
+    },
+    "scenario_4": {
+      "early_return_baseline": -3.639999999999995,
+      "early_return_social": -1.9532999999999965,
+      "early_return_difference_ci": [
+        1.1669999272813536,
+        2.206400072718642
+      ],
+      "first100_success_baseline": 0.76,
+      "first100_success_social": 0.868,
+      "median_90pct_milestone_baseline": 55.5,
+      "median_90pct_milestone_social": 38.5,
+      "final_return_baseline": -0.2483999999999999,
+      "final_return_social": -0.10279999999999985,
+      "final_return_difference_ci": [
+        0.05111017177667375,
+        0.2400898282233263
+      ],
+      "final_success_baseline": 1.0,
+      "final_success_social": 1.0,
+      "median_goal_discovery_episode": 6.5,
+      "correct_expert_selections": 10,
+      "mean_lambda_episodes_11_100": 0.6267832429777426,
+      "fraction_with_expert_match_episodes_11_100": 0.9955555555555555
+    }
+  },
+  "maze": {
+    "maze_lower_gate": {
+      "early_return_baseline": -6.177199999999992,
+      "early_return_social": -4.711999999999991,
+      "early_return_difference_ci": [
+        0.7550563633902522,
+        2.1753436366097465
+      ],
+      "first100_success_baseline": 0.5369999999999999,
+      "first100_success_social": 0.6220000000000001,
+      "median_90pct_milestone_baseline": 77.5,
+      "median_90pct_milestone_social": 59.0,
+      "final_return_baseline": -0.9483000000000006,
+      "final_return_social": -0.9018000000000006,
+      "final_return_difference_ci": [
+        -0.013371232935945769,
+        0.10637123293594569
+      ],
+      "final_success_baseline": 1.0,
+      "final_success_social": 1.0,
+      "median_goal_discovery_episode": 29.0,
+      "correct_expert_selections": 10,
+      "mean_lambda_episodes_11_100": 0.6076957830948504,
+      "fraction_with_expert_match_episodes_11_100": 0.7611111111111111
+    },
+    "maze_upper_gate": {
+      "early_return_baseline": -6.396299999999989,
+      "early_return_social": -4.420599999999992,
+      "early_return_difference_ci": [
+        0.7896844997312022,
+        3.161715500268792
+      ],
+      "first100_success_baseline": 0.49499999999999994,
+      "first100_success_social": 0.651,
+      "median_90pct_milestone_baseline": 77.0,
+      "median_90pct_milestone_social": 55.0,
+      "final_return_baseline": -0.9305000000000007,
+      "final_return_social": -0.9335000000000007,
+      "final_return_difference_ci": [
+        -0.07619902582939242,
+        0.07019902582939244
+      ],
+      "final_success_baseline": 1.0,
+      "final_success_social": 0.999,
+      "median_goal_discovery_episode": 26.5,
+      "correct_expert_selections": 10,
+      "mean_lambda_episodes_11_100": 0.5982973449559141,
+      "fraction_with_expert_match_episodes_11_100": 0.7811111111111111
+    }
+  }
+}
